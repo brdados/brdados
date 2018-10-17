@@ -16,5 +16,15 @@ Para aplicar o tema para `ggplot2` em um gráfico, basta chamar a função
 `tema_brdados` concatenadamente:
 
 ``` r
+library(brdados)
 g + geom_point() + tema_brdados()
+```
+
+Instalação
+----------
+
+Use:
+
+``` r
+devtools::install_github("brdados/brdados")
 ```
