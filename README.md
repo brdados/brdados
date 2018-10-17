@@ -12,8 +12,8 @@ Funções que usamos para produzir nossos gráficos e análises.
 Tema
 ----
 
-Para aplicar o tema básico para `ggplot2` em um gráfico, basta chamar a
-função `tema_brdados` concatenadamente:
+Para aplicar o tema para `ggplot2` em um gráfico, basta chamar a função
+`tema_brdados` concatenadamente:
 
 ``` r
 g + geom_point() + tema_brdados()

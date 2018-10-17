@@ -19,11 +19,11 @@ knitr::opts_chunk$set(
 [![Travis-CI Build Status](https://travis-ci.org/brdados/brdados.svg?branch=master)](https://travis-ci.org/brdados/brdados)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/brdados/brdados?branch=master&svg=true)](https://ci.appveyor.com/project/brdados/brdados)
 
-Funções que usamos para produzir nossos gráficos e análises.
+Fun��es que usamos para produzir nossos gr�ficos e an�lises.
 
 ## Tema
 
-Para aplicar o tema básico para `ggplot2` em um gráfico, basta chamar a função `tema_brdados` concatenadamente:
+Para aplicar o tema para `ggplot2` em um gr�fico, basta chamar a fun��o `tema_brdados` concatenadamente:
 
 ```{r eval=FALSE}
 g + geom_point() + tema_brdados()
