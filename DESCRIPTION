@@ -1,0 +1,25 @@
+Package: brdados
+Type: Package
+Title: R Functions to Spread the Truth
+Version: 1.0.0
+Authors@R: 
+    c(person(given = "Fernando",
+             family = "Meireles",
+             role = c("aut", "cre"),
+             email = "fmeireles@ufmg.br",
+             comment = c(ORCID = "0000-0002-7027-2058")),
+      person(given = "Denisson",
+             family = "Silva",
+             role = c("aut"),
+             comment = c(ORCID = "0000-0003-2771-8146"))
+             )
+Description: A handfull of R functions used to compose plots at Brasil em Dados.
+License: GPL-3
+Depends: R (>= 3.1.2)
+Imports: dplyr (>= 0.5.0),
+    ggplot2
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/brdados/brdados
+BugReports: https://github.com/brdados/brdados/issues
+RoxygenNote: 6.1.0
